@@ -1,11 +1,15 @@
 project: 
   type: website
+  output-dir: docs
+  render: 
+    - "*.qmd"
+    
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
-  site-url: "https://sael-swfsc.github.io/PAM_template_ResearchCompendium/" 
-  repo-url: "https://github.com/SAEL-SWFSC/PAM_template_ResearchCompendium"
+  title: "test_compendium" 
+  site-url: "https://chomweavernoaa.github.io/test_compendium/" 
+  repo-url: "https://github.com/chomweaverNOAA/test_compendium"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
